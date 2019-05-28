@@ -3,9 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "mgr-pdf-viewer-react": "^1.0.3",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.1",
+    "react-scroll": "^1.7.11",
+    "react-swipeable-views": "^0.13.3",
+    "react-swipeable-views-utils": "^0.13.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +35,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {}
 }
