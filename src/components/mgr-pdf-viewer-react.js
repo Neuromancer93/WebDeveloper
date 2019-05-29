@@ -57,31 +57,6 @@ var _extends =
 		return target;
 	};
 
-var get = function get(object, property, receiver) {
-	if (object === null) object = Function.prototype;
-	var desc = Object.getOwnPropertyDescriptor(object, property);
-
-	if (desc === undefined) {
-		var parent = Object.getPrototypeOf(object);
-
-		if (parent === null) {
-			return undefined;
-		} else {
-			return get(parent, property, receiver);
-		}
-	} else if ('value' in desc) {
-		return desc.value;
-	} else {
-		var getter = desc.get;
-
-		if (getter === undefined) {
-			return undefined;
-		}
-
-		return getter.call(receiver);
-	}
-};
-
 var inherits = function(subClass, superClass) {
 	if (typeof superClass !== 'function' && superClass !== null) {
 		throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass);
@@ -105,28 +80,6 @@ var possibleConstructorReturn = function(self, call) {
 	}
 
 	return call && (typeof call === 'object' || typeof call === 'function') ? call : self;
-};
-
-var set = function set(object, property, value, receiver) {
-	var desc = Object.getOwnPropertyDescriptor(object, property);
-
-	if (desc === undefined) {
-		var parent = Object.getPrototypeOf(object);
-
-		if (parent !== null) {
-			set(parent, property, value, receiver);
-		}
-	} else if ('value' in desc && desc.writable) {
-		desc.value = value;
-	} else {
-		var setter = desc.set;
-
-		if (setter !== undefined) {
-			setter.call(receiver, value);
-		}
-	}
-
-	return value;
 };
 
 var styles = {};

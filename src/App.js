@@ -1,8 +1,9 @@
 import React from 'react';
 import Header from './components/Header/Header.jsx';
 import HeaderLinks from './components/Header/HeaderLinks.jsx';
-import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import Portfolio from './components/Portfolio';
+import TabsWrappedLabel from './components/Tabs';
 import Grid from '@material-ui/core/Grid';
 import SwipeableTextMobileStepper from './components/SwipeableTextMobileStepper';
 import SimpleModalWrapped from './components/SimpleModalWrapped';
@@ -18,6 +19,7 @@ import bootstrappic from './components/images/bootstrap.PNG';
 import jquerypic from './components/images/jquery.PNG';
 import bkground from './components/images/bg7.jpg';
 import capture from './components/images/Capture.PNG';
+import WebDeveloperResume1 from './components/WebDeveloperResume1.pdf';
 import { Element } from 'react-scroll';
 import './App.css';
 import { List } from '@material-ui/core';
@@ -31,11 +33,11 @@ function App() {
 				rightLinks={<HeaderLinks />}
 				fixed
 				changeColorOnScroll={{
-					height: 595,
+					height: 450,
 					color: 'info'
 				}}
 			/>
-			<Element name="home" classname="home">
+			<Element name="home" className="home">
 				<div id="home">
 					<img src={bkground} alt="" className="homepic" />
 				</div>
@@ -56,9 +58,7 @@ function App() {
 							<img src={capture} alt="..." className="profile" id="profile" />
 						</Grid>
 						<Grid item>
-							<Typography>
-								<h2 align="center">Ivan Trejo Rodriguez</h2>
-							</Typography>
+							<h2 align="center">Ivan Trejo Rodriguez</h2>
 						</Grid>
 						<Grid item>
 							<Typography>
@@ -106,7 +106,9 @@ function App() {
 			<Element name="portfolio" className="slant1">
 				<div className="parts">
 					<h1 align="center">Portfolio:</h1>
-					<div className="parts" id="Pitem1">
+					<TabsWrappedLabel />
+					{/* <Portfolio /> */}
+					{/* <div className="parts" id="Pitem1">
 						<h2 align="center">Actualize Yourself - A Different Kind of Task Manager</h2>
 						<Grid container direction="row" justify="space-evenly" alignContent="baseline">
 							<Grid item xs align="center">
@@ -138,7 +140,7 @@ function App() {
 								</Typography>
 							</Grid>
 						</Grid>
-					</div>
+					</div> */}
 				</div>
 			</Element>
 
@@ -158,7 +160,15 @@ function App() {
 										<h3>Email: itrejonumber1@gmail.com</h3>
 									</li>
 									<li>
-										<SimpleModalWrapped />
+										{/* <SimpleModalWrapped /> */}
+										<a
+											// href="./components/WebDeveloperResume1.pdf"
+											href={WebDeveloperResume1}
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											resume
+										</a>
 									</li>
 								</List>
 							</Typography>

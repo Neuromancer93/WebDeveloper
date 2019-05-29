@@ -38,8 +38,7 @@ const tutorialSteps = [
 const styles = (theme) => ({
 	root: {
 		maxWidth: 550,
-		flexGrow: 1,
-		borderRadius: '50%'
+		flexGrow: 1
 		// // margin: '55px 25px 35px 275px',
 		// marginLeft: '170px'
 		// padding: '5px 10px 35px 150px'
