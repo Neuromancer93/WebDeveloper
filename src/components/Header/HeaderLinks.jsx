@@ -17,8 +17,8 @@ function HeaderLinks({ ...props }) {
 		<List className={classes.list}>
 			<ListItem className={classes.listItem}>
 				<Button color="transparent" className={classes.navLink}>
-					<Link activeClass="active" to="about" spy={true} smooth={true} offset={-67} duration={500}>
-						About Me
+					<Link activeClass="active" to="portfolio" spy={true} smooth={true} offset={-67} duration={500}>
+						Portfolio
 					</Link>
 				</Button>
 			</ListItem>
@@ -33,8 +33,8 @@ function HeaderLinks({ ...props }) {
 
 			<ListItem className={classes.listItem}>
 				<Button color="transparent" className={classes.navLink}>
-					<Link activeClass="active" to="portfolio" spy={true} smooth={true} offset={-67} duration={500}>
-						Portfolio
+					<Link activeClass="active" to="about" spy={true} smooth={true} offset={-67} duration={500}>
+						About Me
 					</Link>
 				</Button>
 			</ListItem>

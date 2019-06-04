@@ -9,29 +9,34 @@ import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
-import signup from '../components/images/AS-signup.PNG';
-import profile from '../components/images/AS-profile.PNG';
-import goal from '../components/images/AS-goal.PNG';
-import timeline from '../components/images/AS-timeline.PNG';
+import Fit1 from './images/FitnessTracker1.PNG';
+import Fit2 from './images/FitnessTracker2.PNG';
+import Fit3 from './images/FitnessTracker3.PNG';
+import Fit4 from './images/FitnessTracker4.PNG';
+import Fit5 from './images/FitnessTracker5.PNG';
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const tutorialSteps = [
 	{
-		label: 'Actualize Yourself - Home Page with Timeline',
-		imgPath: timeline
+		label: 'Fitness Tracker',
+		imgPath: Fit1
 	},
 	{
-		label: 'Actualize Yourself – Initial Signup',
-		imgPath: signup
+		label: 'Fitness Tracker',
+		imgPath: Fit2
 	},
 	{
-		label: 'Actualize Yourself - Create a Profile',
-		imgPath: profile
+		label: 'Fitness Tracker',
+		imgPath: Fit3
 	},
 	{
-		label: 'Actualize Yourself - Create a Goal',
-		imgPath: goal
+		label: 'Fitness Tracker',
+		imgPath: Fit4
+	},
+	{
+		label: 'Fitness Tracker',
+		imgPath: Fit5
 	}
 ];
 

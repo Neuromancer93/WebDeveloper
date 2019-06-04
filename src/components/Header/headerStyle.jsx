@@ -40,7 +40,7 @@ const headerStyle = {
 	},
 	container: {
 		...container,
-		minHeight: '50px',
+		minHeight: '45px',
 		flex: '1',
 		alignItems: 'center',
 		justifyContent: 'space-between',
@@ -52,12 +52,12 @@ const headerStyle = {
 	},
 	title: {
 		...defaultFont,
-		lineHeight: '30px',
+		lineHeight: '28px',
 		fontSize: '18px',
 		borderRadius: '3px',
 		textTransform: 'none',
 		color: 'inherit',
-		padding: '8px 16px',
+		padding: '6px 14px',
 		'&:hover,&:focus': {
 			color: 'inherit',
 			background: 'transparent'

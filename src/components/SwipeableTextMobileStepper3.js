@@ -9,29 +9,34 @@ import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
-import signup from '../components/images/AS-signup.PNG';
-import profile from '../components/images/AS-profile.PNG';
-import goal from '../components/images/AS-goal.PNG';
-import timeline from '../components/images/AS-timeline.PNG';
+import BC1 from './images/OnlineBC1.PNG';
+import BC2 from './images/OnlineBC2.PNG';
+import BC3 from './images/OnlineBC3.PNG';
+import BC4 from './images/OnlineBC4.PNG';
+import BC5 from './images/OnlineBC5.PNG';
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const tutorialSteps = [
 	{
-		label: 'Actualize Yourself - Home Page with Timeline',
-		imgPath: timeline
+		label: 'Online Bookcase',
+		imgPath: BC4
 	},
 	{
-		label: 'Actualize Yourself – Initial Signup',
-		imgPath: signup
+		label: 'Online Bookcase',
+		imgPath: BC5
 	},
 	{
-		label: 'Actualize Yourself - Create a Profile',
-		imgPath: profile
+		label: 'Online Bookcase',
+		imgPath: BC1
 	},
 	{
-		label: 'Actualize Yourself - Create a Goal',
-		imgPath: goal
+		label: 'Online Bookcase',
+		imgPath: BC2
+	},
+	{
+		label: 'Online Bookcase',
+		imgPath: BC3
 	}
 ];
 
