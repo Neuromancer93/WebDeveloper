@@ -46,7 +46,7 @@ function TabsWrappedLabel() {
 							</Grid>
 							<Grid item xs>
 								<Typography>
-									<List>
+									<List align="left">
 										<ul>
 											<li>A website that logs your basic health stats.</li>
 											<li>Create an account and start your fitness journey.</li>
@@ -95,7 +95,7 @@ function TabsWrappedLabel() {
 							</Grid>
 							<Grid item xs>
 								<Typography>
-									<List>
+									<List align="left">
 										<ul>
 											<li>
 												A website that helps you keep track of your long term goals in order to
@@ -152,14 +152,14 @@ function TabsWrappedLabel() {
 							</Grid>
 							<Grid item xs>
 								<Typography>
-									<List>
+									<List align="left">
 										<ul>
 											<li>Do you sometimes forget what books you have in your collection?</li>
 											<li>Using Online Bookcase you can easily keep track of all your books</li>
 											<li>Simply create an account and start logging your books</li>
 											<li>
-												You can look by searching for title, isbn, or use your device's camera
-												to scan the book's barcode
+												You can look search by title, isbn, or use your device's camera to scan
+												the book's barcode
 											</li>
 											<li>It's that easy!</li>
 											<li>

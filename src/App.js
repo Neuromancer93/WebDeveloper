@@ -9,13 +9,13 @@ import reactpic from './components/images/react.PNG';
 import csspic from './components/images/css.PNG';
 import htmlpic from './components/images/HTML5.PNG';
 import jspic from './components/images/javascript-icon-png-23.jpg';
-import muipic from './components/images/materialui.PNG';
+import firebase from './components/images/firebase.PNG';
 import mongopic from './components/images/mongodb.PNG';
 import nodepic from './components/images/node.PNG';
 import sqlpic from './components/images/sql.PNG';
 import bootstrappic from './components/images/bootstrap.PNG';
 import jquerypic from './components/images/jquery.PNG';
-import bkground from './components/images/bg7.jpg';
+import bkground from './components/images/bg8.jpg';
 import capture from './components/images/Capture.PNG';
 import Resume3 from './components/Resume3.pdf';
 
@@ -75,7 +75,7 @@ function App() {
 							<img src={nodepic} alt="" className="pics" />
 							<img src={sqlpic} alt="" className="pics" />
 							<img src={mongopic} alt="" className="pics" />
-							<img src={muipic} alt="" className="pics" />
+							<img src={firebase} alt="" className="pics" />
 							<img src={reactpic} alt="" className="pics" />
 						</Grid>
 					</div>
@@ -100,8 +100,8 @@ function App() {
 								<Typography>
 									<h5 className="description" align="center">
 										Full Stack Web Developer specializing in React with a background in Philosophy
-										and a passion for knowledge and coding. Effective at combining creative ideas
-										and critical thinking to solve problems and develop user-friendly applications.
+										and a passion for coding. Effective at combining creative ideas and critical
+										thinking to solve problems and develop user-friendly applications.
 									</h5>
 								</Typography>
 							</Grid>
