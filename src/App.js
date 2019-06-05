@@ -17,7 +17,7 @@ import bootstrappic from './components/images/bootstrap.PNG';
 import jquerypic from './components/images/jquery.PNG';
 import bkground from './components/images/bg8.jpg';
 import capture from './components/images/Capture.PNG';
-import Resume3 from './components/Resume3.pdf';
+import Resume4 from './components/Resume4.pdf';
 
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
@@ -139,7 +139,7 @@ function App() {
 											>
 												<FaLinkedin className="portfoliolinks" size="3em" />
 											</a>
-											<a href={Resume3} target="_blank" rel="noopener noreferrer">
+											<a href={Resume4} target="_blank" rel="noopener noreferrer">
 												<FaFileAlt className="portfoliolinks" size="3em" />
 											</a>
 										</li>
