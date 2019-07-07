@@ -158,8 +158,8 @@ function TabsWrappedLabel() {
 											<li>Using Online Bookcase you can easily keep track of all your books</li>
 											<li>Simply create an account and start logging your books</li>
 											<li>
-												You can look search by title, isbn, or use your device's camera to scan
-												the book's barcode
+												You can search by title, isbn, or use your device's camera to scan the
+												book's barcode
 											</li>
 											<li>It's that easy!</li>
 											<li>

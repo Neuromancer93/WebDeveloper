@@ -16,35 +16,35 @@ function HeaderLinks({ ...props }) {
 	return (
 		<List className={classes.list}>
 			<ListItem className={classes.listItem}>
-				<Button color="transparent" className={classes.navLink}>
-					<Link activeClass="active" to="portfolio" spy={true} smooth={true} offset={-67} duration={500}>
+				<Link activeClass="active" to="portfolio" spy={true} smooth={true} offset={-67} duration={500}>
+					<Button color="transparent" className={classes.navLink}>
 						Portfolio
-					</Link>
-				</Button>
+					</Button>
+				</Link>
 			</ListItem>
 
 			<ListItem className={classes.listItem}>
-				<Button color="transparent" className={classes.navLink}>
-					<Link activeClass="active" to="technology" spy={true} smooth={true} offset={-67} duration={500}>
+				<Link activeClass="active" to="technology" spy={true} smooth={true} offset={-67} duration={500}>
+					<Button color="transparent" className={classes.navLink}>
 						Technologies
-					</Link>
-				</Button>
+					</Button>
+				</Link>
 			</ListItem>
 
 			<ListItem className={classes.listItem}>
-				<Button color="transparent" className={classes.navLink}>
-					<Link activeClass="active" to="about" spy={true} smooth={true} offset={-67} duration={500}>
+				<Link activeClass="active" to="about" spy={true} smooth={true} offset={-67} duration={500}>
+					<Button color="transparent" className={classes.navLink}>
 						About Me
-					</Link>
-				</Button>
+					</Button>
+				</Link>
 			</ListItem>
 
 			<ListItem className={classes.listItem}>
-				<Button color="transparent" className={classes.navLink}>
-					<Link activeClass="active" to="contact" spy={true} smooth={true} offset={-67} duration={500}>
+				<Link activeClass="active" to="contact" spy={true} smooth={true} offset={-67} duration={500}>
+					<Button color="transparent" className={classes.navLink}>
 						Contact Me
-					</Link>
-				</Button>
+					</Button>
+				</Link>
 			</ListItem>
 		</List>
 	);

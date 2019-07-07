@@ -15,7 +15,7 @@ import nodepic from './components/images/node.PNG';
 import sqlpic from './components/images/sql.PNG';
 import bootstrappic from './components/images/bootstrap.PNG';
 import jquerypic from './components/images/jquery.PNG';
-import bkground from './components/images/bg8.jpg';
+import webDev from './components/images/webDev.jpg';
 import capture from './components/images/Capture.PNG';
 import Resume4 from './components/Resume4.pdf';
 
@@ -45,7 +45,7 @@ function App() {
 				/>
 				<Element name="home" className="home">
 					<div id="home">
-						<img src={bkground} alt="" className="homepic" />
+						<img src={webDev} alt="" className="homepic" />
 					</div>
 				</Element>
 
@@ -85,20 +85,20 @@ function App() {
 					<div className="parts" id="about">
 						<h1>About Me:</h1>
 						<Grid className="about" container direction="column" justify="center" alignItems="center">
-							<Grid item>
+							{/* <Grid item>
 								<img src={capture} alt="..." className="profile" id="profile" />
-							</Grid>
+							</Grid> */}
 							<Grid item>
 								<h2 align="center">Ivan Trejo</h2>
 							</Grid>
-							<Grid item>
+							{/* <Grid item>
 								<Typography>
 									<h4 align="center">Full Stack Web Developer</h4>
 								</Typography>
-							</Grid>
-							<Grid item>
+							</Grid> */}
+							<Grid item sm align="center">
 								<Typography>
-									<h5 className="description" align="center">
+									<h5 className="description">
 										Full Stack Web Developer specializing in React with a background in Philosophy
 										and a passion for coding. Effective at combining creative ideas and critical
 										thinking to solve problems and develop user-friendly applications.
