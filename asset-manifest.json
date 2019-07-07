@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/WebDeveloper/static/css/main.07751b3d.chunk.css",
-    "main.js": "/WebDeveloper/static/js/main.ce67b4a4.chunk.js",
-    "main.js.map": "/WebDeveloper/static/js/main.ce67b4a4.chunk.js.map",
+    "main.css": "/WebDeveloper/static/css/main.a27d0274.chunk.css",
+    "main.js": "/WebDeveloper/static/js/main.570c0d0d.chunk.js",
+    "main.js.map": "/WebDeveloper/static/js/main.570c0d0d.chunk.js.map",
     "runtime~main.js": "/WebDeveloper/static/js/runtime~main.37497be2.js",
     "runtime~main.js.map": "/WebDeveloper/static/js/runtime~main.37497be2.js.map",
-    "static/js/2.3f1514bd.chunk.js": "/WebDeveloper/static/js/2.3f1514bd.chunk.js",
-    "static/js/2.3f1514bd.chunk.js.map": "/WebDeveloper/static/js/2.3f1514bd.chunk.js.map",
+    "static/js/2.bd609ad0.chunk.js": "/WebDeveloper/static/js/2.bd609ad0.chunk.js",
+    "static/js/2.bd609ad0.chunk.js.map": "/WebDeveloper/static/js/2.bd609ad0.chunk.js.map",
     "index.html": "/WebDeveloper/index.html",
-    "precache-manifest.d5e4d382f9e91c287c700d96fbd9fcc0.js": "/WebDeveloper/precache-manifest.d5e4d382f9e91c287c700d96fbd9fcc0.js",
+    "precache-manifest.bf8c3731913e8ccd75a92ed73e05620b.js": "/WebDeveloper/precache-manifest.bf8c3731913e8ccd75a92ed73e05620b.js",
     "service-worker.js": "/WebDeveloper/service-worker.js",
-    "static/css/main.07751b3d.chunk.css.map": "/WebDeveloper/static/css/main.07751b3d.chunk.css.map",
+    "static/css/main.a27d0274.chunk.css.map": "/WebDeveloper/static/css/main.a27d0274.chunk.css.map",
     "static/media/AS-goal.PNG": "/WebDeveloper/static/media/AS-goal.34a2c844.PNG",
     "static/media/AS-profile.PNG": "/WebDeveloper/static/media/AS-profile.3ab49e84.PNG",
     "static/media/AS-signup.PNG": "/WebDeveloper/static/media/AS-signup.cd422a75.PNG",
@@ -28,7 +28,6 @@
     "static/media/OnlineBC4.PNG": "/WebDeveloper/static/media/OnlineBC4.6bf5e610.PNG",
     "static/media/OnlineBC5.PNG": "/WebDeveloper/static/media/OnlineBC5.0485c644.PNG",
     "static/media/Resume4.pdf": "/WebDeveloper/static/media/Resume4.b425f8dc.pdf",
-    "static/media/bg8.jpg": "/WebDeveloper/static/media/bg8.c2f12018.jpg",
     "static/media/bootstrap.PNG": "/WebDeveloper/static/media/bootstrap.dea09aac.PNG",
     "static/media/css.PNG": "/WebDeveloper/static/media/css.c67d4f0c.PNG",
     "static/media/firebase.PNG": "/WebDeveloper/static/media/firebase.d3ed1787.PNG",
@@ -37,6 +36,7 @@
     "static/media/mongodb.PNG": "/WebDeveloper/static/media/mongodb.d59e541f.PNG",
     "static/media/node.PNG": "/WebDeveloper/static/media/node.6dd8e764.PNG",
     "static/media/react.PNG": "/WebDeveloper/static/media/react.b6c84e64.PNG",
-    "static/media/sql.PNG": "/WebDeveloper/static/media/sql.801c98ba.PNG"
+    "static/media/sql.PNG": "/WebDeveloper/static/media/sql.801c98ba.PNG",
+    "static/media/webDev.jpg": "/WebDeveloper/static/media/webDev.e14c4fe1.jpg"
   }
 }
